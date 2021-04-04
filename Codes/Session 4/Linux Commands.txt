@@ -1,0 +1,96 @@
+# command prompt useage
+# list everything in current directory
+-- Windows
+dir
+-- Linux
+ls
+
+# to get current directory
+-- Windows
+cd
+-- linux
+pwd
+
+# To change directory
+-- Windows
+cd <<folder name>>
+-- linux
+cd <<folder name>>
+
+# To go back to one directory back
+-- Windows
+cd ..
+-- linux
+cd ..
+
+# To clear the terminal
+-- Windows
+cls
+-- linux
+clear
+
+# To go to root directory
+-- Windows and Linux
+cd /
+
+# To go to user directory
+-- Windows
+
+-- Linux
+cd ~
+
+# access certain folder
+-- Windows and Linux
+cd <<directory>>/<<folder>>
+
+# To open a folder
+-- Windows
+start .
+-- Linus
+<<go to folder location and type>> open ..
+
+# To create a  new folder in directory
+-- Windows and Linux
+mkdir <<folder name>>
+
+# To create a new file in the folder
+-- Windows
+echo filename.fileextension
+-- Linux
+touch filename.fileextension
+
+
+# Open an application
+-- Windows
+
+-- Linux
+open -a "Application name"
+
+# Open a certain file in specific application
+-- Windows
+
+-- Linux
+open -a "Application name" filename
+-- example open -a "Sublime Text" index.html
+
+# rename a file
+-- Windows
+rename index.html about.html
+-- Linux
+mv index.html about.html
+
+# To delete a file
+-- Windows 
+del about.html
+-- Linux
+rm about.html
+
+# To delete a folder
+-- Windows
+deltree <<foldername>>
+-- Linux
+rm -r <<foldername>>
+
+
+
+
