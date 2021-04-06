@@ -1,0 +1,3 @@
+pipenv - allows to install packages specific for each project
+in PyCharm each project has its own virtual env
+# We can install packages in PyCharm specific for project
