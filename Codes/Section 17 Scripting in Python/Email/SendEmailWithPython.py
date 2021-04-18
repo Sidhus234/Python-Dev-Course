@@ -11,14 +11,14 @@ from email.message import EmailMessage
 
 email = EmailMessage()
 email['from'] = 'Gursewak Sidhu'
-email['to'] = 'sidhus234@gmail.com'
+email['to'] = 'xxxxxxx@gmail.com'
 email['subject'] = 'You won 1,000,000 dollars'
 email.set_content('Are you dumb enough to believe it')
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo() #hello message, telling server is awake
     smtp.starttls() # encryption method
-    smtp.login('gs3529688@gmail.com', 'Apple123#@!')
+    smtp.login('emailid@gmail.com', 'password')
     smtp.send_message(email)
     print('All good boss')
     
